@@ -3,8 +3,12 @@
 # DeforumMusicVisualizer
 DeforumMusicVisualizer aims to enhance your listening experience by creating dynamic and creative visualizations based on your favorite music tracks. Utilizing [StableDiffusion Deforum](https://github.com/deforum-art/deforum-stable-diffusion) and the [Spotify API](https://developer.spotify.com/documentation/web-api), it generates captivating visuals synchronized with the audio analysis of your tracks, based on their album cover.
 
+<img src="example_gifs/Funkdoobiest%20-%20Rock%20On.jpg" alt="Funkdoobiest - Rock On / Album Cover" width="512" height="512">  
+![Funkdoobiest - Rock On](example_gifs/Funkdoobiest%20-%20Rock%20On.gif)
 
-<img src="example_gifs/Funkdoobiest%20-%20Rock%20On.jpg" alt="Funkdoobiest - Rock On / Album Cover" width="512" height="512">  ![Funkdoobiest - Rock On](example_gifs/Funkdoobiest%20-%20Rock%20On.gif)
-<img src="example_gifs/Herbie%20Hancock%20-%20Actual%20Proof.jpg" alt="Herbie Hancock - Actual Proof / Album Cover" width="512" height="512">  ![Herbie Hancock - Actual Proof](example_gifs/Herbie%20Hancock%20-%20Actual%20Proof.gif)
-<img src="example_gifs/Soundgarden%20-%20Burden%20In%20My%20Hand.jpg" alt="Soundgarden - Burden In My Hand / Album Cover" width="512" height="512">  ![Soundgarden - Burden In My Hand](example_gifs/Soundgarden%20-%20Burden%20In%20My%20Hand.gif)
+<img src="example_gifs/Herbie%20Hancock%20-%20Actual%20Proof.jpg" alt="Herbie Hancock - Actual Proof / Album Cover" width="512" height="512">  
+![Herbie Hancock - Actual Proof](example_gifs/Herbie%20Hancock%20-%20Actual%20Proof.gif)
+
+<img src="example_gifs/Soundgarden%20-%20Burden%20In%20My%20Hand.jpg" alt="Soundgarden - Burden In My Hand / Album Cover" width="512" height="512">  
+![Soundgarden - Burden In My Hand](example_gifs/Soundgarden%20-%20Burden%20In%20My%20Hand.gif)
 
