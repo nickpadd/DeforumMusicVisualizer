@@ -11,11 +11,15 @@ DeforumMusicVisualizer aims to enhance your listening experience by creating dyn
   </div>
 
   <div style="display: flex; align-items: center; margin-bottom: 20px;">
+    <p align="center">
     <img src="example_gifs/Herbie%20Hancock%20-%20Actual%20Proof.jpg" alt="Herbie Hancock - Actual Proof / Album Cover" width="256" height="256">
     <img src="example_gifs/Herbie%20Hancock%20-%20Actual%20Proof.gif" alt="Herbie Hancock - Actual Proof" width="256" height="256">
+    </p>
   </div>
 
   <div style="display: flex; align-items: center;">
+    <p align="center">
     <img src="example_gifs/Soundgarden%20-%20Burden%20In%20My%20Hand.jpg" alt="Soundgarden - Burden In My Hand / Album Cover" width="256" height="256">
     <img src="example_gifs/Soundgarden%20-%20Burden%20In%20My%20Hand.gif" alt="Soundgarden - Burden In My Hand" width="256" height="256">
+    </p>
   </div>
