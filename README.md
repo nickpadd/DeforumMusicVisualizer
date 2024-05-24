@@ -35,6 +35,11 @@ To use the MusicVisualizer, follow these steps to obtain and add Spotify API tok
    - Open the google colab notebook and click on 'Secrets'->'Add new secret' options on the top left.
    - Create two secrets with the name 'SPOTIPY_CLIENT_ID' and 'SPOTIPY_CLIENT_SECRET' where you should copy the spotify tokens.
    - This will ensure the privacy of the spotify tokens while running the notebook.
+  <div style="display: flex; align-items: center;">
+    <p align="center">
+    <img src="colab_secrets.jpg" alt="Google Colab Secrets" width="256" height="256">
+    </p>
+  </div>
 
 3. **Ready to go**
    - You are now ready to start using the notebook and visualize your favourite tracks.
