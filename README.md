@@ -37,12 +37,10 @@ To use the MusicVisualizer, follow these steps to obtain and add Spotify API tok
    - This will ensure the privacy of the spotify tokens while running the notebook.
   <div style="display: flex; align-items: center;">
     <p align="center">
-    <img src="colab_secrets.png" alt="Google Colab Secrets" width="256" height="256">
+    <img src="colab_secrets.png" alt="Google Colab Secrets" width="400" height="400">
     </p>
   </div>
-<p align="center">
-  <img width="460" height="300" src="colab_secrets.png">
-</p>
+
 
 3. **Ready to go**
    - You are now ready to start using the notebook and visualize your favourite tracks.
