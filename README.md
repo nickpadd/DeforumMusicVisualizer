@@ -41,6 +41,11 @@ To use the MusicVisualizer, follow these steps to obtain and add Spotify API tok
     </p>
   </div>
 
-
 3. **Ready to go**
    - You are now ready to start using the notebook and visualize your favourite tracks.
+
+## Instructions of Use
+### Colab Notebook
+1. It is recommended for the user to take look into [Stable Diffusion Deforum Settings](https://stable-diffusion-art.com/deforum/#Basic_settings_with_examples). Most of the settings are editable in the Colab notebook for the user in order to finetune the visuals to his preferences.
+2. Running the notebook requires access to your google drive account. After setting up the environment, all the required files will be under 'AI' directory. Directory 'AI/models' will have the required checkpoints for running Deforum Stable Diffusion and the visualization frames will be saved under 'AI/StableDiffusion/${YYYY-MM}/${Artist_name - Song_name}'
+
