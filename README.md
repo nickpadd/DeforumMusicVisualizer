@@ -78,7 +78,7 @@ The Gradio interface follows a simple and easy-to-use top-down format:
     -  **Optional: Choose to resume previous visual**. Tick the `resume` box and provide the timestring identifier of the frames you want to resume on, i.e. '20240524113018'. This timestring can be viewed in `'AI/StableDiffusion/${YYYY-MM}/${Song_name}'`, in the name of the frame. It is **important** to keep the same `fps` rate when resuming previous visualizations.
 
 4. #### Press the `Visualize` button.
-    - This triggers the visualization process which can take a considerable amount of time. Sit back, drink a cup of coffee and occasionaly monitor that everything is running smoothly. 
+    - This triggers the visualization process which can take a considerable amount of time. Sit back, drink a cup of coffee and occasionally monitor that everything is running smoothly. 
     - If the gradio cell is run in **debug** mode you can see the frames produced and the progress in the colab notebook.
     - **Remember**, if the runtime gets disconnected or something breaks you can always come back and [**resume**](#final-choices) a previous visualization.
 
