@@ -75,7 +75,7 @@ The Gradio interface follows a simple and easy-to-use top-down format:
     - It is recommended for the user to take time to **carefully enhance the default prompts**. The prompts will be recycled through the different sections of the song. Any blank prompts will be emmited.
     - **Choose the `duration`** of the song you want to visualize. **Remember**, you can always come back and resume previous visualizations.
     - **Choose the `fps` rate** of the output visual. Higher `fps` rate produces smoother output but takes longer to produce.
-    -  **Optional: Choose to resume previous visual**. Tick the `resume` box and provide the timestring identifier of the frames you want to resume on, i.e. '20240524113018'. This timestring can be viewed in `'AI/StableDiffusion/${YYYY-MM}/${Song_name}'`, in the name of the frame. It is **important** to keep the same `fps` rate when resuming previous visualizations.
+    -  **Optional: Choose to resume previous visual**. Tick the `resume` box and provide the timestring identifier of the frames you want to resume on, i.e. `'20240524113018'`. This timestring can be viewed in `'AI/StableDiffusion/${YYYY-MM}/${Song_name}'`, in the name of the frame. It is **important** to keep the same `fps` rate when resuming previous visualizations.
 
 4. #### Press the `Visualize` button.
     - This triggers the visualization process which can take a considerable amount of time. Sit back, drink a cup of coffee and occasionally monitor that everything is running smoothly. 
