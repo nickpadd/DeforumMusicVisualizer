@@ -6,7 +6,10 @@ DeforumMusicVisualizer aims to enhance your listening experience by creating dyn
   <div style="display: flex; align-items: center; margin-bottom: 20px;">
     <p align="center">
     <img src="images/example_gifs/Funkdoobiest%20-%20Rock%20On.jpg" alt="Funkdoobiest - Rock On / Album Cover" width="256" height="256">
-    <img src="images/example_gifs/Funkdoobiest%20-%20Rock%20On.gif" alt="Funkdoobiest - Rock On" width="256" height="256">
+
+https://github.com/nickpadd/DeforumMusicVisualizer/assets/115219791/b7704bfc-8393-443e-9569-985db2f2e282
+
+obiest%20-%20Rock%20On.gif" alt="Funkdoobiest - Rock On" width="256" height="256">
     </p>
   </div>
 
