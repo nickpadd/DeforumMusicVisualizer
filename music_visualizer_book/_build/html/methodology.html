@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Platform &#8212; Deforum Music Visualizer</title>
+    <title>Methodology &#8212; Deforum Music Visualizer</title>
   
   
   
@@ -60,6 +60,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'methodology';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Step-by-Step: Running Deforum Music Visualizer" href="running_dmv.html" />
+    <link rel="prev" title="Visualization Examples" href="visualization-examples.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -122,8 +124,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -148,8 +148,14 @@
   
   
   
+    
+    
+      
+    
+    
+    <img src="_static/logo.svg" class="logo__image only-light" alt="Deforum Music Visualizer - Home"/>
+    <script>document.write(`<img src="_static/logo.svg" class="logo__image only-dark" alt="Deforum Music Visualizer - Home"/>`);</script>
   
-    <p class="title logo__title">Deforum Music Visualizer</p>
   
 </a></div>
         <div class="sidebar-primary-item">
@@ -173,9 +179,10 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="visualization-examples.html">Visualization Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="platform.html">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Methodology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running_dmv.html">Step-by-Step: Running Deforum Music Visualizer</a></li>
 </ul>
 
     </div>
@@ -359,7 +366,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Platform</h1>
+    <h1>Methodology</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -373,13 +380,17 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="platform">
-<h1>Platform<a class="headerlink" href="#platform" title="Link to this heading">#</a></h1>
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <p align="center">
-  <img src="book_images/conceptual_diagram.svg" alt="Conceptual Diagram">
-  </p>
+  <section class="tex2jax_ignore mathjax_ignore" id="methodology">
+<h1>Methodology<a class="headerlink" href="#methodology" title="Link to this heading">#</a></h1>
+<p><img alt="conceptual_diagram" src="_images/conceptual_diagram.svg" /></p>
+<p><strong>Deforum Music Visualizer</strong> is built on <em>Google Colab</em> in order to freely host the demanding text-to-video generation process.</p>
+<p>The independent <em>Gradio user interface</em> allows users to provide a Spotify URL and an audio track of the song. The Spotify API is then used to retrieve the track’s Music Information Retrieval (MIR) data and album cover.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>Deforum Music Visualizer</strong> can run without an attached audio track of the song, but the users are strongly encouraged to attach the version that is uploaded in Spotify. This ensures the optimal synchronization with the SpotifyAPI audio analysis and provides the best visualization results. Otherwise the tool tries to download the track via <strong><a class="reference external" href="https://github.com/SathyaBhat/spotify-dl">spotify_dl</a></strong> and attempts to synchronize based on prevalent beats. This often leads to different song versions and unsyncrhonized results.</p>
 </div>
+<p>The album cover is processed using an image-to-text model to generate default prompts for the animation. After the user finalizes the prompts and selects the desired <code class="docutils literal notranslate"><span class="pre">frames</span> <span class="pre">per</span> <span class="pre">second</span> <span class="pre">(fps)</span></code> and <code class="docutils literal notranslate"><span class="pre">duration</span></code>, the animation generation process begins.</p>
+<p>Once the animation generation is complete, the user is provided with the final output visualization.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -412,6 +423,24 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="visualization-examples.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Visualization Examples</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="running_dmv.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Step-by-Step: Running Deforum Music Visualizer</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               

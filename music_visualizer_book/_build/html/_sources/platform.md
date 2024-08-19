@@ -1,3 +1,3 @@
 # Platform
 
-<img src="/book_images/conceptual_diagram.svg" alt="Conceptual Diagram">
+![conceptual_diagram](/book_images/conceptual_diagram.svg)

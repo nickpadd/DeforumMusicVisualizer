@@ -5,7 +5,15 @@ The combination of music and visual arts has become prevalent in the modern musi
 
 This work explores the possibility of using **Generative text-to-video** models, and more specifically **Generative text-to-video Diffusion Models**, to create music visualizations with the goal of enhancing the musical experience for the listener. 
 
-We introduce a free-to-use and easily accessible Music Visualization tool which we call **Deforum Music Visualizer**, based on [Deforum Stable Diffusion](https://github.com/deforum-art/deforum-stable-diffusion), an open-source **Generative text-to-video** model. 
+We introduce a free-to-use and easily accessible Music Visualization tool which we call **Deforum Music Visualizer**, based on **Deforum Stable Diffusion**, an open-source **Generative text-to-video** model. 
 
 The tool is available here: 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17Z-UW9ybR113xKxOKK88Wcfsl621wQzM#scrollTo=UuttUY-t-gtd)
+
+
+```{note}
+For related issues and problems with running **Deforum Music Visualizer** feel free to [create a new issue](https://github.com/nickpadd/DeforumMusicVisualizer/issues/new/choose)
+```
+```{seealso}
+Deforum Music Visualizer is based on **[Deforum Stable Diffusion](https://github.com/deforum-art/deforum-stable-diffusion)**. Readers are encouraged to take a deeper look into the framework and what it provides.
+```

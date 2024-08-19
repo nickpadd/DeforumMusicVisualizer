@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Visualization Examples &#8212; Deforum Music Visualizer</title>
+    <title>Step-by-Step: Running Deforum Music Visualizer &#8212; Deforum Music Visualizer</title>
   
   
   
@@ -57,11 +57,10 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'visualization-examples';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'running_dmv';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Methodology" href="methodology.html" />
-    <link rel="prev" title="Deforum Music Visualizer" href="intro.html" />
+    <link rel="prev" title="Methodology" href="methodology.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -180,9 +179,9 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Visualization Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="visualization-examples.html">Visualization Examples</a></li>
 <li class="toctree-l1"><a class="reference internal" href="methodology.html">Methodology</a></li>
-<li class="toctree-l1"><a class="reference internal" href="running_dmv.html">Step-by-Step: Running Deforum Music Visualizer</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Step-by-Step: Running Deforum Music Visualizer</a></li>
 </ul>
 
     </div>
@@ -254,7 +253,7 @@
       
       
       
-      <li><a href="https://github.com/nickpadd/DeforumMusicVisualizer/issues/new?title=Issue%20on%20page%20%2Fvisualization-examples.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/nickpadd/DeforumMusicVisualizer/issues/new?title=Issue%20on%20page%20%2Frunning_dmv.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -284,7 +283,7 @@
       
       
       
-      <li><a href="_sources/visualization-examples.md" target="_blank"
+      <li><a href="_sources/running_dmv.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -355,7 +354,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -366,11 +367,21 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Visualization Examples</h1>
+    <h1>Step-by-Step: Running Deforum Music Visualizer</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisite-obtaining-and-adding-spotify-api-tokens">Prerequisite: Obtaining and adding Spotify API tokens</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-the-google-colab-notebook">Running the <em>Google Colab</em> notebook</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gradio-user-interface">Gradio User Interface</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -380,42 +391,74 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="visualization-examples">
-<h1>Visualization Examples<a class="headerlink" href="#visualization-examples" title="Link to this heading">#</a></h1>
-<!-- First Song Example -->
-<h2 style="text-align: left;">Actual Proof - Herbie Hancock</h2>
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="../../book_images/HerbieHancock-ActualProof.jpg" alt="Album Cover" style="width: 35%; height: auto; margin-right: 20px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NcGaOqGIgUU?si=gxbudt1XnmhOJT1Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<!-- Second Song Example -->
-<h2 style="text-align: left;">Rock On - Funkdoobiest</h2>
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="../../book_images/Funkdoobiest-RockOn.jpg" alt="Album Cover" style="width: 35%; height: auto; margin-right: 20px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/E6KCOt_inUo?si=5EvksDduXa7sQ0yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<!-- Third Song Example -->
-<h2 style="text-align: left;">Burden In My Hand - Soundgarden</h2>
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="../../book_images/Soundgarden-BurdenInMyHand.jpg" alt="Album Cover" style="width: 35%; height: auto; margin-right: 20px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/lulibgHgws0?si=NtcVH9Lb_51vwmTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<!-- Fourth Song Example -->
-<h2 style="text-align: left;">Chan Chan - Buena Vista Social Club</h2>
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="../../book_images/BuenaVistaSocialClub-ChanChan.jpg" alt="Album Cover" style="width: 35%; height: auto; margin-right: 20px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/RUDJoMoJpvY?si=eLt2y2B4gZIIzxQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<!-- Fifth Song Example -->
-<h2 style="text-align: left;">Someone Like You - Adele</h2>
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="../../book_images/Adele-SomeoneLikeYou.jpg" alt="Album Cover" style="width: 35%; height: auto; margin-right: 20px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/GX6GnTjKPW8?si=4zaxhccbtbGfIAfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<div class="admonition-send-your-own-creations admonition">
-<p class="admonition-title">Send your own creations</p>
-<p>Feel free to email me your own visualizations at <a class="reference external" href="mailto:deforum&#46;music&#46;visualizer&#37;&#52;&#48;gmail&#46;com">deforum<span>&#46;</span>music<span>&#46;</span>visualizer<span>&#64;</span>gmail<span>&#46;</span>com</a>.</p>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="step-by-step-running-deforum-music-visualizer">
+<h1>Step-by-Step: Running Deforum Music Visualizer<a class="headerlink" href="#step-by-step-running-deforum-music-visualizer" title="Link to this heading">#</a></h1>
+<p>The platform of use is based on that of <strong>Deforum Stable Diffusion</strong>. It is built on a <strong>Google Colab</strong> notebook, with the goal of being easy to use and accessible from a resources point of view.</p>
+<p>The tool’s structure is split into two interfaces:</p>
+<ul class="simple">
+<li><p><strong>Google Colab Notebook</strong>: The users mount their <em>Google Drive</em>, essential for saving the produced frames, download and initialize <strong><a class="reference external" href="https://github.com/deforum-art/deforum-stable-diffusion">Deforum Stable Diffusion</a></strong> for the text-to-video generation. This part concerns mostly the settings of the text-to-video diffusion model which can be altered to fit user preferences.</p></li>
+<li><p><strong>Gradio User Interface</strong>: Gradio is a tool to host simple and easy-to-use interfaces. An interface is launched inside the notebook and directs users to a different tab, where the main process of the song visualization is handled. This includes URL parsing, <em>MIR</em>, prompt generation, and the visualization process itself.## Step-by-Step: Running Deforum Music Visualizer</p></li>
+</ul>
+<section id="prerequisite-obtaining-and-adding-spotify-api-tokens">
+<h2>Prerequisite: Obtaining and adding Spotify API tokens<a class="headerlink" href="#prerequisite-obtaining-and-adding-spotify-api-tokens" title="Link to this heading">#</a></h2>
+<p><strong>Deforum Music Visualizer</strong> utilizes the Spotify API which requires certain user tokens. These tokens are then stored as <em>secrets</em> in the <em>Google Colab</em> notebook to ensure user privacy. To obtain and add the tokens follow these steps:</p>
+<ol class="arabic simple">
+<li><p><strong>Get Client ID and Client Secret:</strong></p>
+<ul class="simple">
+<li><p>Follow the steps provided <a class="reference external" href="https://developer.spotify.com/documentation/web-api/tutorials/getting-started">here</a> to obtain the spotify client id and spotify client secret.</p></li>
+</ul>
+</li>
+<li><p><strong>Add the tokens as google colab secrets</strong></p>
+<ul class="simple">
+<li><p>Open the google colab notebook and click on <code class="docutils literal notranslate"><span class="pre">'Secrets'-&gt;'Add</span> <span class="pre">new</span> <span class="pre">secret'</span> </code>options on the top left.</p></li>
+<li><p>Create two secrets with the name <code class="docutils literal notranslate"><span class="pre">'SPOTIPY_CLIENT_ID'</span></code> and <code class="docutils literal notranslate"><span class="pre">'SPOTIPY_CLIENT_SECRET'</span></code> where you should copy the spotify tokens.</p></li>
+<li><p>This will ensure the privacy of the spotify tokens while running the notebook.</p></li>
+</ul>
+</li>
+</ol>
+<p><img alt="Colab Secrets" src="_images/colab_secrets.png" /></p>
+</section>
+<section id="running-the-google-colab-notebook">
+<h2>Running the <em>Google Colab</em> notebook<a class="headerlink" href="#running-the-google-colab-notebook" title="Link to this heading">#</a></h2>
+<p>The <em>Google Colab</em> notebook is divided in 3 different sections:</p>
+<ul class="simple">
+<li><p><strong>Setup</strong>: Sets up the environment for running the model, mounts the users google drive and downloads the required Stable Diffusion models.</p></li>
+<li><p><strong>Settings</strong>: Loads the default or user specified Stable Diffusion model settings. It is recommended for the user to take look into <a class="reference external" href="https://stable-diffusion-art.com/deforum/#Basic_settings_with_examples">Stable Diffusion Deforum Settings</a> in order to fully utilize this section.</p></li>
+<li><p><strong>Interface</strong>: Launches an independent user interface to accommodate the music visualization process.</p></li>
+</ul>
+</section>
+<section id="gradio-user-interface">
+<h2>Gradio User Interface<a class="headerlink" href="#gradio-user-interface" title="Link to this heading">#</a></h2>
+<p>The Gradio interface follows a simple and easy-to-use top-down format:</p>
+<ol class="arabic simple">
+<li><p><strong>Provide the <code class="docutils literal notranslate"><span class="pre">spotify-url</span></code> of the track you want to create visuals for.</strong></p>
+<ul class="simple">
+<li><p>While not required, it is recommended that the user also uploads an audio file of the track to ensure optimal synchronization.</p></li>
+<li><p>If an audio file is not provided, <a class="reference external" href="https://github.com/SathyaBhat/spotify-dl">spotify_dl</a> is used to download the track, but this method may result in lower quality audio, live versions of tracks, unsynchronized visuals, or even the wrong audio track.</p></li>
+</ul>
+</li>
+<li><p><strong>Press the <code class="docutils literal notranslate"><span class="pre">Produce</span> <span class="pre">Prompts</span></code> button.</strong></p>
+<ul class="simple">
+<li><p>This triggers the process of retrieving track information (album cover, duration) and producing default prompts for the visualization.</p></li>
+</ul>
+</li>
+<li><p><strong>Final choices.</strong></p>
+<ul class="simple">
+<li><p>It is recommended for the user to take time to <strong>carefully enhance the default prompts</strong>. The prompts will be recycled through the different sections of the song. Any blank prompts will be emmited.</p></li>
+<li><p><strong>Choose the <code class="docutils literal notranslate"><span class="pre">duration</span></code></strong> of the song you want to visualize. <strong>Remember</strong>, you can always come back and resume previous visualizations.</p></li>
+<li><p><strong>Choose the <code class="docutils literal notranslate"><span class="pre">fps</span></code> rate</strong> of the output visual. Higher <code class="docutils literal notranslate"><span class="pre">fps</span></code> rate produces smoother output but takes longer to produce.</p></li>
+<li><p><strong>Optional: Choose to resume previous visual</strong>. Tick the <code class="docutils literal notranslate"><span class="pre">resume</span></code> box and provide the timestring identifier of the frames you want to resume on, i.e. <code class="docutils literal notranslate"><span class="pre">'20240524113018'</span></code>. This timestring can be viewed in <code class="docutils literal notranslate"><span class="pre">'AI/StableDiffusion/${YYYY-MM}/${Song_name}'</span></code>, in the name of the frame. It is <strong>important</strong> to keep the same <code class="docutils literal notranslate"><span class="pre">fps</span></code> rate when resuming previous visualizations.</p></li>
+</ul>
+</li>
+<li><p><strong>Press the <code class="docutils literal notranslate"><span class="pre">Visualize</span></code> button.</strong></p>
+<ul class="simple">
+<li><p>This triggers the visualization process which can take a considerable amount of time. Sit back, drink a cup of coffee and occasionally monitor that everything is running smoothly.</p></li>
+<li><p>If the gradio cell is run in <strong>debug</strong> mode you can see the frames produced and the progress in the colab notebook.</p></li>
+<li><p><strong>Remember</strong>, if the runtime gets disconnected or something breaks you can always come back and <strong>resume</strong> a previous visualization.</p></li>
+</ul>
+</li>
+</ol>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -449,22 +492,13 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intro.html"
+       href="methodology.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Deforum Music Visualizer</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="methodology.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">Methodology</p>
       </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -472,6 +506,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisite-obtaining-and-adding-spotify-api-tokens">Prerequisite: Obtaining and adding Spotify API tokens</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-the-google-colab-notebook">Running the <em>Google Colab</em> notebook</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gradio-user-interface">Gradio User Interface</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

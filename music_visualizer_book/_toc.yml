@@ -5,5 +5,5 @@ format: jb-book
 root: intro
 chapters:
 - file: visualization-examples
-- file: platform
-- file: dummy
+- file: methodology
+- file: running_dmv
