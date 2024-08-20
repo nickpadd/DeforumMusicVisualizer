@@ -12,7 +12,8 @@ The tool is available here:
 
 
 ```{note}
-For related issues and problems with running **Deforum Music Visualizer** feel free to [create a new issue](https://github.com/nickpadd/DeforumMusicVisualizer/issues/new/choose)
+- For related issues and problems with running **Deforum Music Visualizer** feel free to [create a new issue](https://github.com/nickpadd/DeforumMusicVisualizer/issues/new/choose). 
+- If you have any ideas or questions [start a new discussion](https://github.com/nickpadd/DeforumMusicVisualizer/discussions).
 ```
 ```{seealso}
 Deforum Music Visualizer is based on **[Deforum Stable Diffusion](https://github.com/deforum-art/deforum-stable-diffusion)**. Readers are encouraged to take a deeper look into the framework and what it provides.
