@@ -20,3 +20,14 @@ The tool is available here:
 ```{seealso}
 Deforum Music Visualizer is based on **[Deforum Stable Diffusion](https://github.com/deforum-art/deforum-stable-diffusion)**. Readers are encouraged to take a deeper look into the framework and what it provides.
 ```
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-STDMQBHS2E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-STDMQBHS2E');
+</script>
