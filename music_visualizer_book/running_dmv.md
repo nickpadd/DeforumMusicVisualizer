@@ -18,7 +18,7 @@ The tool's structure is split into two interfaces:
    - Create two secrets with the name `'SPOTIPY_CLIENT_ID'` and `'SPOTIPY_CLIENT_SECRET'` where you should copy the spotify tokens.
    - This will ensure the privacy of the spotify tokens while running the notebook.
 
-![Colab Secrets](/book_images/colab_secrets.png)
+![Colab Secrets](_static/book_images/colab_secrets.png)
 
 ## Running the *Google Colab* notebook
 The *Google Colab* notebook is divided in 3 different sections:

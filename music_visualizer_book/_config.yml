@@ -3,7 +3,7 @@
 
 title: Deforum Music Visualizer # Name of the book
 author: Nikolas Papadopoulos
-logo: logo.svg
+logo: #logo.svg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html

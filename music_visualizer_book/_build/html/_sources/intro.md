@@ -10,6 +10,8 @@ We introduce a free-to-use and easily accessible Music Visualization tool which 
 The tool is available here: 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17Z-UW9ybR113xKxOKK88Wcfsl621wQzM#scrollTo=UuttUY-t-gtd)
 
+```{tableofcontents}
+```
 
 ```{note}
 - For related issues and problems with running **Deforum Music Visualizer** feel free to [create a new issue](https://github.com/nickpadd/DeforumMusicVisualizer/issues/new/choose). 
