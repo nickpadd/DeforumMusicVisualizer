@@ -1,6 +1,6 @@
 # Methodology
 
-![conceptual_diagram](/book_images/conceptual_diagram.svg)
+![conceptual_diagram](_static/book_images/conceptual_diagram.svg)
 
 **Deforum Music Visualizer** is built on *Google Colab* in order to freely host the demanding text-to-video generation process.
 
